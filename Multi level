@@ -14,13 +14,13 @@ class GrandFather{
         System.out.println("Grandfa");
     }
 }
-class Father{
+class Father extends GrandFather{
     char gender ='M';
     void sample(){
         System.out.println("Father");
     }
 }
-class Daughter{
+class Daughter extends GrandFather{
     char gender ='F';
     void sample(){
         System.out.println("Daughter");
