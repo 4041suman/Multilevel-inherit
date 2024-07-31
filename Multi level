@@ -1,0 +1,28 @@
+class Multilevel {
+    public static void main(String[] args) {
+       Daughter obj = new Daughter();
+        Father ob = new Father();
+        obj.sample();
+        System.out.println(obj.gender);
+        ob.sample();
+        System.out.println(ob.gender);
+    }
+}
+class GrandFather{
+    char gender ='M';
+    void sample(){
+        System.out.println("Grandfa");
+    }
+}
+class Father{
+    char gender ='M';
+    void sample(){
+        System.out.println("Father");
+    }
+}
+class Daughter{
+    char gender ='F';
+    void sample(){
+        System.out.println("Daughter");
+    }
+}
